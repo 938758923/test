@@ -1,0 +1,128 @@
+.logo img{
+    width: 300px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+header ul{
+    float: left;
+    line-height: 20px;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    padding-right:50px;
+    color: white;
+    font-size: 15px;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: auto;
+}
+
+h2{
+    width: 100%;
+    height: auto;
+    border-left: 5px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+}
+
+
+.form{
+    float: left;
+    width: 100%;
+    height: auto;
+    border: 3px solid #5a5a5a;
+    background-color: #dfdfdf;
+}
+
+.form h3{
+    border-left: 4px solid red;
+    padding-left: 5px;
+}
+
+.form h3{
+    margin-left: 20px;
+}
+
+form{
+    margin-left: 10px;
+    
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+.button{
+  
+    background-color: #606060;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.kiji{
+  float: left;
+  width: 70%;
+  height: auto;
+}
+
+.kiji .keijiban{
+    float: left;
+    width: 100%;
+    
+    background-color: #dfdfdf;
+    border: 3px solid #5a5a5a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.kiji .keijiban h3{
+    border-bottom: 1px solid #5a5a5a;
+    margin-left: 5px;
+}
+
+.kiji .keijiban .nakami{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.kiji .keijiban .name{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.right{
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+.right h3{
+   
+    border-bottom: 2px dotted black;
+    
+}
+
+
+.right ul li{
+    list-style: none;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
