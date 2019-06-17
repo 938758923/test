@@ -1,6 +1,6 @@
 set names utf8;
 set foreign_key_checks=0;
-drop database if exsists logindb_yamanaka;
+drop database if exists logindb_yamanaka;
 create database logindb_yamanaka;
 use logindb_yamanaka;
 
