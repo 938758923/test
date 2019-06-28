@@ -1,0 +1,13 @@
+127.0.0.1 - - [28/Jun/2019:19:09:37 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:09:43 +0900] "GET /WebProj3/ HTTP/1.1" 200 1146
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:09:46 +0900] "POST /WebProj3/InquiryAction.action;jsessionid=D3B5C04D4099D115CF192DAD7EF9937A HTTP/1.1" 200 958
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:09:59 +0900] "POST /WebProj3/InquiryCompleteAction.action HTTP/1.1" 200 453
+127.0.0.1 - - [28/Jun/2019:19:38:38 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:38:41 +0900] "GET /WebProj3/ HTTP/1.1" 200 2161
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:39:40 +0900] "GET /WebProj3/ HTTP/1.1" 200 2161
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:39:52 +0900] "GET /WebProj3/TestAction.action?username=taro&password=123 HTTP/1.1" 200 209
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:19:40:21 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 209
+127.0.0.1 - - [28/Jun/2019:21:16:14 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:21:16:17 +0900] "GET /WebProj4/ HTTP/1.1" 200 470
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:21:16:20 +0900] "POST /WebProj4/HelloStrutsAction.action;jsessionid=2D34CA1B07342C657436CA8606ACE68E HTTP/1.1" 200 734
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:21:16:20 +0900] "GET /WebProj4/css/style.css HTTP/1.1" 200 1419
