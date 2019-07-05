@@ -30,7 +30,7 @@ public class LoginDAO {
 				LoginDTO dto=new LoginDTO();
 				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
-				loginDTOList.add(dto);
+				loginDTOList.add(dto);//要素の追加　dtoクラスの要素
 			}
 
 			if(loginDTOList.size()<=0){

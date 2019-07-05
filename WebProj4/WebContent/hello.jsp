@@ -11,7 +11,6 @@
 <body>
 	<h1>HelloStruts2!</h1>
 	<br>
-
 	<table>
 		<tbody>
 			<tr>
