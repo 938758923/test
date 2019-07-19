@@ -1,0 +1,12 @@
+127.0.0.1 - - [19/Jul/2019:19:02:10 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:02:13 +0900] "GET /WebProj5/ HTTP/1.1" 200 1148
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:02:18 +0900] "POST /WebProj5/InquiryAction.action;jsessionid=81737FAB7B12E03395DEBC77E2B75DB7 HTTP/1.1" 200 958
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:02:29 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 452
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:03:41 +0900] "GET /WebProj5/ HTTP/1.1" 200 1016
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:03:44 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 958
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:03:54 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 650
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:19:03:54 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Jul/2019:20:39:23 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:20:39:26 +0900] "GET /WebProj5/ HTTP/1.1" 200 2168
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:20:40:12 +0900] "GET /WebProj5/TestAction.action?username=saburo&password=234 HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [19/Jul/2019:20:40:28 +0900] "POST /WebProj5/TestAction.action HTTP/1.1" 200 438
