@@ -22,14 +22,14 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		BuyItemDAO buyItemDAO=new BuyItemDAO();
 
 		result=ERROR;
-		loginDTO=loginDAO.getLoginUserInfo(loginUserId, loginPassword);
-		session.put("loginUser", loginDTO);
+		loginDTO=loginDAO.getLoginUserInfo(loginUserId, loginPassword);//DAOに渡してログイン判定をしてもらう
+		session.put("loginUser", loginDTO);//key=loginUser,,value=loginDTO
 
 		if(((LoginDTO)session.get("loginUser")).getLoginFlg()){
 			result=SUCCESS;
 			BuyItemDTO buyItemDTO=buyItemDAO.getBuyItemInfo();
 
-			session.put("login_user_id", loginDTO.getLoginId());
+			session.put("login_user_id", loginDTO.getLoginId());//Mapに格納。jspで表示できるようになる
 			session.put("id", buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());
 			session.put("buyItem_price", buyItemDTO.getItemPrice());

@@ -8,7 +8,7 @@ import com.internousdev.template.dto.LoginDTO;
 import com.internousdev.template.util.DBConnector;
 
 public class LoginDAO {
-	public LoginDTO getLoginUserInfo(String loginUserId,String loginPassword){
+	public LoginDTO getLoginUserInfo(String loginUserId,String loginPassword){//Actionから渡される
 		DBConnector dbConnector=new DBConnector();
 		Connection connection=dbConnector.getConnection();
 		LoginDTO loginDTO=new LoginDTO();
@@ -16,7 +16,7 @@ public class LoginDAO {
 		try{
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 
-			preparedStatement.setString(1, loginUserId);
+			preparedStatement.setString(1, loginUserId);//formで入力した値
 			preparedStatement.setString(2, loginPassword);
 
 			ResultSet resultSet=preparedStatement.executeQuery();//sql文を送る
@@ -27,7 +27,7 @@ public class LoginDAO {
 				loginDTO.setUserName(resultSet.getString("user_name"));
 //データベースから持ってきてDTOに格納する
 				if(resultSet.getString("login_id")!=null){
-					loginDTO.setLoginFlg(true);
+					loginDTO.setLoginFlg(true);//ログイン成功
 				}
 			}
 		}catch(Exception e){

@@ -27,7 +27,7 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 			session.put("buyItem_name", myPageDTO.getItemName());
 			session.put("total_price", myPageDTO.getTotalPrice());
 			session.put("total_count", myPageDTO.getTotalCount());
-			session.put("total_payment", myPageDTO.getTotalCount());
+			session.put("total_payment", myPageDTO.getPayment());
 			session.put("message", "");
 			//商品履歴を削除
 		}else if(deleteFlg.equals("1")){
