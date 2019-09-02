@@ -4,6 +4,10 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.ecsite.dao.BuyItemDAO;
+import com.internousdev.ecsite.dao.LoginDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
+import com.internousdev.ecsite.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport implements SessionAware{
