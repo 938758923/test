@@ -51,9 +51,6 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 	public void setDeleteFlg(String deleteFlg){
 		this.deleteFlg=deleteFlg;
 	}
-	public void setSession(Map<String, Object> session){
-		this.session=session;
-	}
 	public ArrayList<MyPageDTO> getMyPageList(){
 		return this.myPageList;
 	}
@@ -62,6 +59,12 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 	}
 	public void setMessage(String message){
 		this.message=message;
+	}
+	public Map<String, Object>getSession(){
+		return this.session;
+	}
+	public void setSession(Map<String, Object> session){
+		this.session=session;
 	}
 
 }
